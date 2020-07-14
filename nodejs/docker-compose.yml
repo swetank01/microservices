@@ -1,0 +1,16 @@
+version: "3"
+services:
+  node-api:
+    image: swetank01/node-microservice:latest
+    build:
+     context: .
+    restart: always
+    ports:
+      - '9002:8080'
+    environment:
+      - VIRTUAL_HOST=localhost
+#    volumes:
+#      - logs:/app/out/
+#    expose:
+#      - 8083
+#    command: ["npm","start"]

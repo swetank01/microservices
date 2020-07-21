@@ -1,0 +1,27 @@
+version: "3.7"
+services:
+    db:
+        image: mariadb-microservice:dev
+        build:
+            context: .
+        container_name: mariadb_microservice
+        restart: always
+        ports:
+          - "3306:3306"
+        volumes:
+            - "./mariadb-home:/var/lib/mysql" # add persistance DB Volume
+            #- "./db-my.cnf:/etc/mysql/my.cnf"  
+        networks:
+          - db-network
+    adminer:
+        image: adminer
+        restart: always
+        ports:
+          - 18080:8080
+        networks:
+          - db-network
+
+volumes:
+    mariadb-home:
+networks:
+    db-network:

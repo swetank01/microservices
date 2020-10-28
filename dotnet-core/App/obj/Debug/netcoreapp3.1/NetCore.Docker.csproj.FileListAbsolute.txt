@@ -1,0 +1,10 @@
+/Users/swetank/Documents/swetank01/microservices/dotnet-core/App/bin/Debug/netcoreapp3.1/NetCore.Docker.deps.json
+/Users/swetank/Documents/swetank01/microservices/dotnet-core/App/bin/Debug/netcoreapp3.1/NetCore.Docker.runtimeconfig.json
+/Users/swetank/Documents/swetank01/microservices/dotnet-core/App/bin/Debug/netcoreapp3.1/NetCore.Docker.runtimeconfig.dev.json
+/Users/swetank/Documents/swetank01/microservices/dotnet-core/App/bin/Debug/netcoreapp3.1/NetCore.Docker.dll
+/Users/swetank/Documents/swetank01/microservices/dotnet-core/App/bin/Debug/netcoreapp3.1/NetCore.Docker.pdb
+/Users/swetank/Documents/swetank01/microservices/dotnet-core/App/obj/Debug/netcoreapp3.1/NetCore.Docker.csprojAssemblyReference.cache
+/Users/swetank/Documents/swetank01/microservices/dotnet-core/App/obj/Debug/netcoreapp3.1/NetCore.Docker.AssemblyInfoInputs.cache
+/Users/swetank/Documents/swetank01/microservices/dotnet-core/App/obj/Debug/netcoreapp3.1/NetCore.Docker.AssemblyInfo.cs
+/Users/swetank/Documents/swetank01/microservices/dotnet-core/App/obj/Debug/netcoreapp3.1/NetCore.Docker.dll
+/Users/swetank/Documents/swetank01/microservices/dotnet-core/App/obj/Debug/netcoreapp3.1/NetCore.Docker.pdb

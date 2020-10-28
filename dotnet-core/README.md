@@ -3,6 +3,7 @@
 # Steps 
 - Create and publish a simple .NET Core app
     - `dotnet new console -o App -n NetCore.Docker`
+    - `cd App`
     - `dotnet run`
 - Create and configure a Dockerfile for .NET Core
 - Build a Docker image

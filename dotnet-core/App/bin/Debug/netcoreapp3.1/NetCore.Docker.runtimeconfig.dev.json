@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/swetank/.dotnet/store/|arch|/|tfm|",
+      "/Users/swetank/.nuget/packages"
+    ]
+  }
+}

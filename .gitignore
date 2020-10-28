@@ -1,2 +1,6 @@
 *.DS_Store
 */mariadb-home
+
+# For .net CORE
+dotnet-core/App/bin/Release/
+dotnet-core/App/obj/Release/

@@ -10,8 +10,14 @@
 - Create and configure a Dockerfile for .NET Core
     - `dotnet publish -c Release`
     - `release path --> /bin/Release/netcoreapp3.1/publish/`
-    
-- Build a Docker image
-- Create and run a Docker container
 
+- Build a Docker image
+    - `docker build -t dotnet-counter-prod -f Dockerfile .`
+- Create and run a Docker container
+    - `docker create --name core-counter dotnet-counter-prod`
+    - `docker start core-counter`
+    - `docker stop core-counter`
+
+### Links
+   
 [Original Post](https://docs.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows)

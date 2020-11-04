@@ -17,7 +17,8 @@
     - `docker create --name core-counter dotnet-counter-prod`
     - `docker start core-counter`
     - `docker stop core-counter`
+    - `docker run -it --rm dotnet-counter-prod`
 
 ### Links
-   
+
 [Original Post](https://docs.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows)

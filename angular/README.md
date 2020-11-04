@@ -20,9 +20,13 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 # Docker Build 
 
 ### For dev
+```
 docker build -t angular-micro:dev .
 docker run -d -p 8420:4200 angular-micro:dev 
+```
 
 ### For Prod
+```
 docker build -f Dockerfile.prod -t angular-micro:prod .
-docker run -d -p 8800:80 angular-micro:prod 
+docker run -d -p 8800:80 angular-micro:prod
+```

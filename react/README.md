@@ -17,3 +17,9 @@ docker run \
     -p 3001:3000 \
     react-microservice
 ```
+### Docker Compose 
+
+ docker-compose up -d --build
+
+
+#### Production Build
